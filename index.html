@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS practice project</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    
+    <div id="main" class="h-screen w-full bg-fuchsia-50 overflow-hidden ">
+
+        <div id="nav" class="w-full flex items-center justify-between px-5 py-5 lg:px-14">
+
+            <div id="nav-part1" class="w-full flex items-center justify-start gap-2 ">
+
+                <div id="logo" class="shadow-[#00000046] shadow-sm px-2 py-1 lg:px-3 lg:py-2 rounded-full border-[1px] border-[#00000017]"><i class="ri-mail-line"></i></div>
+
+                <h3 class="font-semibold text-sm lg:text-base">hi@sidhu.design</h3> 
+
+            </div>
+
+            <div id="nav-part2" class="lg:flex lg:items-center lg:gap-20 font-medium text-[#00000085]">
+
+                <i class="ri-menu-5-line lg:hidden block text-xl"></i>
+
+                <a class="hidden lg:block" href="">Works</a>
+                <a class="hidden lg:block" href="">Resume</a>
+                <a class="hidden lg:block" href="">Services</a>
+                <a class="hidden lg:block" href="">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div id="home-page" class=" w-full absolute -translate-x-[0%] translate-y-[50%] lg:translate-y-7 flex flex-col items-center justify-center text-center">
+
+
+            <div id="my-img" class="h-12 w-12 lg:h-16 lg:w-16 bg-fuchsia-400 rounded-full overflow-hidden">
+
+                <img src="./my pic.jpg" alt="" class="object-cover object-center w-full h-fit">
+
+            </div>
+
+
+            <h3 class="text-base font-medium mt-4 lg:mt-3 lg:text-lg">Hi, I'm sidhu</h3>
+
+
+            <h1 class="text-2xl lg:text-6xl font-extrabold lg:font-semibold mt-5 leading-[1.2] lg:leading-[1.1] ">Building digital <br> products, brands, and <br> experience.</h1>
+
+
+            <p class=" w-3/4 lg:w-2/5 mt-5 lg:mt-8 text-sm lg:text-lg font-normal lg:font-medium text-[#000000aa]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum dolor quo velit impedit facere quam?</p>
+
+
+            <a href="#" class="uppercase mt-8 lg:mt-10 text-xs lg:text-sm font-medium lg:font-normal px-6 lg:px-8 py-2 lg:py-3 rounded-full bg-black text-white">connect withme</a>
+
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
